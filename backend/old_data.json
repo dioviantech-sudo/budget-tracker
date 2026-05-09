@@ -1,0 +1,151 @@
+{
+  "source": "browser_automated_export",
+  "exported_at": "397418.3944562",
+  "year_data": {},
+  "tracker_data": {
+    "transactions": [
+      {
+        "id": 1,
+        "type": "income",
+        "desc": "Salary",
+        "category": "Salary",
+        "amount": 3500,
+        "date": "2026-04-09"
+      },
+      {
+        "id": 2,
+        "type": "expense",
+        "desc": "Rent",
+        "category": "Rent",
+        "amount": 1200,
+        "date": "2026-04-09"
+      },
+      {
+        "id": 3,
+        "type": "expense",
+        "desc": "Groceries",
+        "category": "Food",
+        "amount": 450,
+        "date": "2026-05-09"
+      },
+      {
+        "id": 4,
+        "type": "expense",
+        "desc": "Internet",
+        "category": "Utilities",
+        "amount": 80,
+        "date": "2026-05-09"
+      },
+      {
+        "id": 5,
+        "type": "income",
+        "desc": "Freelance",
+        "category": "Freelance",
+        "amount": 600,
+        "date": "2026-05-09"
+      }
+    ],
+    "debts": [
+      {
+        "id": 1,
+        "name": "Credit Card A",
+        "original": 5000,
+        "balance": 3200,
+        "rate": 18.99,
+        "minPayment": 150
+      },
+      {
+        "id": 2,
+        "name": "Student Loan",
+        "original": 15000,
+        "balance": 11200,
+        "rate": 4.5,
+        "minPayment": 280
+      },
+      {
+        "id": 3,
+        "name": "Car Loan",
+        "original": 12000,
+        "balance": 8400,
+        "rate": 5.25,
+        "minPayment": 310
+      }
+    ],
+    "payments": [
+      {
+        "id": 1,
+        "debtId": 1,
+        "amount": 150,
+        "date": "2026-04-09"
+      },
+      {
+        "id": 2,
+        "debtId": 2,
+        "amount": 280,
+        "date": "2026-04-09"
+      },
+      {
+        "id": 3,
+        "debtId": 3,
+        "amount": 310,
+        "date": "2026-04-09"
+      }
+    ],
+    "savings": [
+      {
+        "id": 1,
+        "name": "Emergency Fund",
+        "goal": 50000,
+        "balance": 12500
+      },
+      {
+        "id": 2,
+        "name": "Vacation",
+        "goal": 30000,
+        "balance": 8000
+      }
+    ],
+    "recurring": [
+      {
+        "id": 1,
+        "type": "expense",
+        "desc": "Car Amortization",
+        "category": "Transport",
+        "amount": 12000,
+        "day": 5
+      },
+      {
+        "id": 2,
+        "type": "expense",
+        "desc": "House Amortization",
+        "category": "Rent",
+        "amount": 15000,
+        "day": 1
+      },
+      {
+        "id": 3,
+        "type": "expense",
+        "desc": "Electric Bill",
+        "category": "Utilities",
+        "amount": 3500,
+        "day": 15
+      },
+      {
+        "id": 4,
+        "type": "expense",
+        "desc": "Water Bill",
+        "category": "Utilities",
+        "amount": 800,
+        "day": 20
+      },
+      {
+        "id": 5,
+        "type": "expense",
+        "desc": "HOA Fee",
+        "category": "Rent",
+        "amount": 1500,
+        "day": 10
+      }
+    ]
+  }
+}
